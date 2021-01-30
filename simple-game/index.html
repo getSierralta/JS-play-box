@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game</title>
+    <script src="js/gamemanager.js"></script>
+    <script src="js/enemy.js"></script>
+    <script src="js/player.js"></script>
+</head>
+<body>
+    <header class="header">
+        <p>Play the greatest RPG ever to be made!</p>
+        <h2>Chosse your character!</h2>
+    </header>
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="img/avatar-player/warrior.jpg" alt="warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Warrior have higher health and stamina, 
+                however their strength also makes them slower and clumsier.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="img/avatar-player/rogue.jpg" alt="Rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>Rogues are fast and have high stamina and speed which makes 
+                    up for their lack in strength and health.
+                </p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="img/avatar-player/mage.jpg" alt="Mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Mages are glass canons which puts all their efforts into spells. 
+                    This means they stack on everything else.
+                </p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="img/avatar-player/hunter.jpg" alt="Hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>Hunters are well rounded fighters that focus on evening out 
+                    their skills. No strength or weaknesses.
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="actions">
+
+    </div>
+    <div class="arena">
+
+    </div>
+    <div class="enemy">
+
+    </div>
+
+</body>
+</html>
